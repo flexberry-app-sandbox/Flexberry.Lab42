@@ -12,12 +12,12 @@
     "Frontend": {
       "EmberJs": {
         "EmberApp": true,
-        "EmberAddon": true,
-        "Build": true,
-        "GitClone": true,
-        "GitPush": true,
+        "EmberAddon": false,
+        "Build": false,
+        "GitClone": false,
+        "GitPush": false,
         "GhPagesPush": true,
-        "EmberMetadata": true
+        "EmberMetadata": false
       },
       "ApacheCordova": {
         "CordovaProject": false,
@@ -27,7 +27,7 @@
     "Backend": {
       "AspNet": false,
       "AspNetCore": true,
-      "Java": false
+      "Java": true
     },
     "Docker": {
       "Dockerfile": true,
