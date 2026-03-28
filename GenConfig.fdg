@@ -30,9 +30,9 @@
       "Java": true
     },
     "Docker": {
-      "Dockerfile": false,
-      "DockerfileAutobuild": false,
-      "DockerBuildShellScript": false,
+      "Dockerfile": true,
+      "DockerfileAutobuild": true,
+      "DockerBuildShellScript": true,
       "DockerSwarm": false
     },
     "CiCd": {
