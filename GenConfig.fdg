@@ -11,12 +11,12 @@
     "Validate": false,
     "Frontend": {
       "EmberJs": {
-        "EmberApp": false,
+        "EmberApp": true,
         "EmberAddon": false,
         "Build": false,
         "GitClone": false,
         "GitPush": false,
-        "GhPagesPush": false,
+        "GhPagesPush": true,
         "EmberMetadata": false
       },
       "ApacheCordova": {
@@ -36,9 +36,9 @@
       "DockerSwarm": false
     },
     "CiCd": {
-      "AzureDevOps": false,
-      "GitHubActions": false,
-      "GitLab": false
+      "AzureDevOps": true,
+      "GitHubActions": true,
+      "GitLab": true
     },
     "Storage": {
       "Mssql": {
